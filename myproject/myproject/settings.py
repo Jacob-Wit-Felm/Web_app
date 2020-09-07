@@ -30,12 +30,15 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '192.168.1.179',
     '0.0.0.0',
-    '192.168.1.255',]
+    '192.168.1.255',
+    '127.0.0.1',
+    ]
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
