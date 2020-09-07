@@ -1,2 +1,0 @@
-print("Sex")
-print("SEX")
